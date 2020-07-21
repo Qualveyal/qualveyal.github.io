@@ -40,8 +40,8 @@ function update(i) {
 
 function display() {
     m.html('Midnight - ' + ResultTime[0] + ':' + ResultTime[1]);
-    t.html('LastOneThird - ' + ResultTime[2] + ':' + ResultTime[3]);
-    s.html('LastOneSixth - ' + ResultTime[4] + ':' + ResultTime[5]);
+    t.html('Last One Third - ' + ResultTime[2] + ':' + ResultTime[3]);
+    s.html('Last One Sixth - ' + ResultTime[4] + ':' + ResultTime[5]);
 }
 
 function CalculateTime() {

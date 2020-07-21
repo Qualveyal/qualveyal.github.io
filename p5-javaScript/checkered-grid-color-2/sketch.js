@@ -1,7 +1,7 @@
 let Grid;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
   
   Grid = new grid();
