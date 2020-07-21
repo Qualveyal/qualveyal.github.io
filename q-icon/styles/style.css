@@ -35,3 +35,9 @@ img {
 }
 
 a:link, a:visited, a:active { color: inherit; }
+
+@media screen and (max-width: 600px) {
+  body {
+    width: auto;
+  }
+}
