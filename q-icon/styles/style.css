@@ -13,11 +13,12 @@ h1 {
   text-shadow: 5px 3px 1px #000000;
 }
  
-
-p, li {
-  font-size: 16px;    
+h2 { font-size: 20px; }
+li { font-size: 16px; }
+h2, li {    
   line-height: 2;
   letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 body {
@@ -32,3 +33,5 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+a:link, a:visited, a:active { color: inherit; }
