@@ -11,14 +11,28 @@
 
 <body>
   <a href="/index.html">Home</a>
-  <p class="TextStuff">Fajr time:</p>
-  <input type="number" class="Box" id="id0" min="0" max="12"> :</input>
-  <input type="number" class="Box" id="id1" min="0" max="60"> AM</input>
+  <p style="margin-bottom: 50px;">Calculates midnight, start of last one-third and last one-sixth of the night</p>
+
+  
+  <div class="TimeInput">
+    <p class="TextStuff">Fajr time:</p>
+    <input type="number" class="InputBox" id="id0" min="0" max="12">
+    <p>:</p>
+    <input type="number" class="InputBox" id="id1" min="0" max="60">
+    <p>AM</p>
+  </div>
   <br>
-  <p class="TextStuff">Maghrib time:</p>
-  <input type="number" class="Box" id="id2" min="0" max="12"> :</input>
-  <input type="number" class="Box" id="id3" min="0" max="60"> PM</input>
+
+  
+  <div class="TimeInput">
+    <p class="TextStuff">Maghrib time:</p>
+    <input type="number" class="InputBox" id="id2" min="0" max="12">
+    <p>:</p>
+    <input type="number" class="InputBox" id="id3" min="0" max="60">
+    <p>PM</p>
+  </div>
   <br>
+
   <button id="button">Calculate</button>
   <br>
   <p class="TextStuff" id="M"></p>
