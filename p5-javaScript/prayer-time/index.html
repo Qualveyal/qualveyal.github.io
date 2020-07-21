@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Prayer Times</title>
+</head>
+
+<body>
+  <p class="TextStuff">Fajr time:</p>
+  <input type="number" class="Box" id="id0" min="0" max="12"> :</input>
+  <input type="number" class="Box" id="id1" min="0" max="60"></input>
+  <br>
+  <p class="TextStuff">Maghrib time:</p>
+  <input type="number" class="Box" id="id2" min="0" max="12"> :</input>
+  <input type="number" class="Box" id="id3" min="0" max="60"></input>
+  <br>
+  <button id="button">Calculate</button>
+  <br>
+  <p class="TextStuff" id="M"></p>
+  <p class="TextStuff" id="T"></p>
+  <p class="TextStuff" id="S"></p>
+
+
+  <script src="../0-libraries/p5.min.js"></script>
+  <script src="sketch.js"></script>
+  <script src="time-calculation.js"></script>
+</body>
+
+</html>
