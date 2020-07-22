@@ -1,22 +1,14 @@
+/* * { border: 1px solid black; } */
+
 body {
-  width: 90%;
-  margin: 0 auto;
   align-content: center;
   font-size: 10pt;
+  padding: 10px;
+  background-color: white;
 }
+main { margin: 0 1%; }
 
-p, .InputBox {
-  display: inherit;
-  text-align: inherit;
-  font-size: inherit;
-  margin: inherit;
-}
-
-.TextStuff{
-  font-size: 16pt;
-  margin-left: 3em;
-  /* background-color: rgb(255, 255, 255); */
-}
+.Header { margin-bottom: 50px; padding-left: 10%; }
 
 .TimeInput {
   width: 100%;
@@ -26,19 +18,36 @@ p, .InputBox {
   margin: 0 auto 1em;
 }
 
+.TextStuff{
+  text-align: left;
+  font-size: 16pt;
+  display: block;
+  padding-left:30%;
+}
+
+p, .InputBox {
+  display: inherit;
+  text-align: inherit;
+  font-size: inherit;
+  margin: inherit;
+}
+
 .InputBox {
   width: 3em;
   height: 3em;
   -moz-appearance: textfield;
 }
 
-.TextStuff {
-  font-size: 16pt;
-  display: block;
-}
+#DescriptionTitle { margin: 10px 0 -10px; font-size: 16px; }
 
 #button { 
   display: block;
   font-size: 16pt;
   margin: 0 auto;
+}
+
+.Output {
+  text-align: right;
+  font-size: 16pt;
+  padding: 20px 43% 20px 0;
 }

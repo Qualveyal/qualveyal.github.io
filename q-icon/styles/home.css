@@ -1,0 +1,14 @@
+#Home:link, #Home:visited {
+  background-color: #ffd448;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1%;
+  font-size: 15pt;
+}
+
+#Home:hover, #Home:active {
+  background-color: #ffcc00;
+}

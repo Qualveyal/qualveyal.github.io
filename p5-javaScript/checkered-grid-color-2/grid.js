@@ -5,7 +5,7 @@ class grid {
       this.Grid = [];
       this.index = 0;
       
-      this.size = 40;
+      this.size = 100;
       this.x = 0;
       this.y = 0;
       

@@ -4,40 +4,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/q-icon/styles/home.css">
 
   <title>Prayer Times</title>
 </head>
 
 <body>
-  <a href="/index.html">Home</a>
-  <p style="margin-bottom: 50px;">Calculates midnight, start of last one-third and last one-sixth of the night</p>
+  <main>
+    <div class="Header">
+      <a href="/index.html" id="Home">Home</a>
+      <div id="DescriptionTitle">
+        <p>Calculates:</p>
+        <ul>
+          <li>midnight,</li>
+          <li>start of last one-third, and</li>
+          <li>last one-sixth of the night</li>
+        </ul>
+      </div>
+    </div>
 
-  
-  <div class="TimeInput">
-    <p class="TextStuff">Fajr time:</p>
-    <input type="number" class="InputBox" id="id0" min="0" max="12">
-    <p>:</p>
-    <input type="number" class="InputBox" id="id1" min="0" max="60">
-    <p>AM</p>
-  </div>
-  <br>
+    <div class="TimeInput">
+      <p class="TextStuff">Fajr time:</p>
+      <p style="color: white;">AM</p>
+      <input type="number" class="InputBox" id="id0" min="0" max="12">
+      <p>:</p>
+      <input type="number" class="InputBox" id="id1" min="0" max="60">
+      <p>AM</p>
+    </div>
 
-  
-  <div class="TimeInput">
-    <p class="TextStuff">Maghrib time:</p>
-    <input type="number" class="InputBox" id="id2" min="0" max="12">
-    <p>:</p>
-    <input type="number" class="InputBox" id="id3" min="0" max="60">
-    <p>PM</p>
-  </div>
-  <br>
+    <div class="TimeInput">
+      <p class="TextStuff">Maghrib time:</p>
+      <p style="color: white;">PM</p>
+      <input type="number" class="InputBox" id="id2" min="0" max="12">
+      <p>:</p>
+      <input type="number" class="InputBox" id="id3" min="0" max="60">
+      <p>PM</p>
+    </div>
 
-  <button id="button">Calculate</button>
-  <br>
-  <p class="TextStuff" id="M"></p>
-  <p class="TextStuff" id="T"></p>
-  <p class="TextStuff" id="S"></p>
+    <button id="button">Calculate</button>
+    <br>
+    <p class="Output" id="M"></p>
+    <p class="Output" id="T"></p>
+    <p class="Output" id="S"></p>
+  </main>
 
 
   <script src="../0-libraries/p5.min.js"></script>
