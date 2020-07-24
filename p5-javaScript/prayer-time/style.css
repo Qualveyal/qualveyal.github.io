@@ -6,7 +6,7 @@ body {
   padding: 10px;
   background-color: white;
 }
-main { margin: 0 1%; }
+header, main { margin: 0 1%; }
 
 .Header { margin-bottom: 50px; padding-left: 10%; }
 
