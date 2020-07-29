@@ -10,24 +10,24 @@ myImage.onclick = function () {
   if (mySrc === "q-icon/images/q-icon-3.png") {
     // dark mode
     myImage.setAttribute("src", "q-icon/images/q-icon-3-2.png");
-    changeEverything("#000000", "#26a15e9d", "#ffffff", "#e9e892af", "#f00c0cd2", "#49003f");
+    changeEverything("url(/q-icon/images/background-dark.jpg)", "#26a15e9d", "#ffffff", "#e9e892af", "#f00c0cd2", "#49003f");
   } else {
     // light mode
     myImage.setAttribute("src", "q-icon/images/q-icon-3.png");
-    changeEverything("#0d5f2c", "#ec7878", "#000000", "#000000", "#a4ff2db0", "#000000");
+    changeEverything("url(/q-icon/images/background.jpg)", "#ffffff", "#000000", "#000000", "#a4ff2db0", "#000000");
   }
 }
 
-function changeEverything(HBC, BBgC, BC, BBC, HC, HTSC) { //e9e892af
+function changeEverything(Img, BBgC, BC, BBC, HC, HTSC) { //e9e892af
     /* 
-  HBC = Heading-Background-Color 
+  Img = HTML background image
   BBgC = Body-Background-Color 
   BC = Body-Color
   BBC = Body-Border-Color
   HC = Heading-Color
   HTSC = Heading-Text-Shadow-Color
   */
-  myHTML.style.backgroundColor = HBC;
+  myHTML.style.backgroundImage = Img;
   myBody.style.backgroundColor = BBgC;
   myBody.style.color = BC;
   myBody.style.border =  "5px solid " + BBC;
