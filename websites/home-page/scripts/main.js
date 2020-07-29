@@ -7,14 +7,14 @@ let myButton = document.querySelector("button");
 /*** Display change ***/
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
-  if (mySrc === "q-icon/images/q-icon-3.png") {
+  if (mySrc === "../images/q-icon-3.png") {
     // dark mode
-    myImage.setAttribute("src", "q-icon/images/q-icon-3-2.png");
-    changeEverything("url(/q-icon/images/background-dark.jpg)", "#26a15e9d", "#ffffff", "#e9e892af", "#f00c0cd2", "#49003f");
+    myImage.setAttribute("src", "../images/q-icon-3-dark.png");
+    changeEverything("url(../images/background-dark.jpg)", "#26a15e9d", "#ffffff", "#e9e892af", "#f00c0cd2", "#49003f");
   } else {
     // light mode
-    myImage.setAttribute("src", "q-icon/images/q-icon-3.png");
-    changeEverything("url(/q-icon/images/background.jpg)", "#ffffff", "#000000", "#000000", "#a4ff2db0", "#000000");
+    myImage.setAttribute("src", "q-icon/images/q-icon-3-light.png");
+    changeEverything("url(../images/background-light.jpg)", "#ffffff", "#000000", "#000000", "#a4ff2db0", "#000000");
   }
 }
 
