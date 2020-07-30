@@ -23,7 +23,7 @@ h1 {
   text-shadow: 0px 0px 10px #e625ec;
 }
 
-hr { margin: 25px -10px; }
+hr { margin: 25px -10px; border-color: black; }
 
 h2 { font-size: 20px; }
 h2, li, p{
