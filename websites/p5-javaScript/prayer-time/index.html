@@ -4,24 +4,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="/q-icon/styles/home.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="../../../styles/home-button.css">
+
+  <link rel="shortcut icon" href="../../../images/favicon.png">
+
+  <script src="../0-libraries/p5.min.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/time-calculation.js" defer></script>
 
   <title>Prayer Times</title>
 </head>
 
 <body>
   <header>
-    <div class="Header">
-      <a href="/index.html" id="Home">Home</a>
-      <div id="DescriptionTitle">
-        <p>Calculates:</p>
-        <ul>
-          <li>midnight,</li>
-          <li>start of last one-third, and</li>
-          <li>last one-sixth of the night</li>
-        </ul>
-      </div>
+    <div class="HomeButton">
+      <p><a href="../../../index.html" id="Home">Home</a></p>
+      <hr>
+    </div>
+
+    <div id="DescriptionTitle">
+      <p>Calculates:</p>
+      <ul>
+        <li>midnight,</li>
+        <li>start of last one-third, and</li>
+        <li>last one-sixth of the night</li>
+      </ul>
     </div>
   </header>
 
@@ -50,11 +58,6 @@
     <p class="Output" id="T"></p>
     <p class="Output" id="S"></p>
   </main>
-
-
-  <script src="../0-libraries/p5.min.js"></script>
-  <script src="sketch.js"></script>
-  <script src="time-calculation.js"></script>
 </body>
 
 </html>

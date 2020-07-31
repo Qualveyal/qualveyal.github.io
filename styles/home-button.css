@@ -5,10 +5,18 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 1%;
+  /* margin-bottom: 1%; */
   font-size: 15pt;
 }
 
 #Home:hover, #Home:active {
   background-color: #ffcc00;
 }
+
+.HomeButton { margin: 20px 0; }
+
+
+/* <div class="HomeButton">
+  <a href="../../../index.html" id="Home">Home</a>
+  <hr>
+</div> */

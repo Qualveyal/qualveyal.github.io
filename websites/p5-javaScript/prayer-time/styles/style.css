@@ -8,7 +8,7 @@ body {
 }
 header, main { margin: 0 1%; }
 
-.Header { margin-bottom: 50px; padding-left: 10%; }
+header { margin-bottom: 50px; }
 
 .TimeInput {
   width: 100%;
@@ -48,6 +48,6 @@ p, .InputBox {
 
 .Output {
   text-align: right;
-  font-size: 16pt;
+  font-size: 14pt;
   padding: 20px 43% 20px 0;
 }
