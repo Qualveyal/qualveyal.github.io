@@ -11,11 +11,11 @@ myImage.onclick = function () {
   if (mySrc === "websites/home-page/images/q-icon-3-light.png") {
     // dark mode
     myImage.setAttribute("src", "websites/home-page/images/q-icon-3-dark.png");
-    changeEverything("none", "#26a15e9d", "#ffffff", "#e9e892af", "#b72121");
+    changeEverything("background-dark.png", "#000000b0", "#ffffff", "#e9e892af", "#b72121");
   } else {
     // light mode
     myImage.setAttribute("src", "websites/home-page/images/q-icon-3-light.png");
-    changeEverything("url(websites/home-page/images/background-light.jpg)", "#ffffff", "#000000", "#000000", "#e625ec");
+    changeEverything("background-light.jpg", "#ffffff", "#000000", "#000000", "#e625ec");
   }
 }
 
@@ -27,7 +27,7 @@ function changeEverything(Img, BBgC, BC, BBC, HTSC) { //e9e892af
   BBC = Body-Border-Color
   HTSC = Heading-Text-Shadow-Color
   */
-  myHTML.style.backgroundImage = Img;
+  myHTML.style.backgroundImage = "url(websites/home-page/images/" + Img + ")";
   myBody.style.backgroundColor = BBgC;
   myBody.style.color = BC;
   myBody.style.border =  "5px solid " + BBC;

@@ -28,7 +28,7 @@ function draw() {
   Display();
 }
 
-function mousePressed() {
+function mouseClicked() {
   Alternate();
   Color();
 }
