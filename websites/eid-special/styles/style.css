@@ -1,0 +1,78 @@
+/* *{ border: 1px solid black; } */
+
+body {
+  /* padding: 0 5%; */
+  text-align: center;
+  letter-spacing: 0.0375em;
+  margin: 0;
+}
+
+.file-background {
+  padding: 10%;
+  border: 1px solid black;
+
+}
+
+.bookmarks {
+  text-align: left;
+  border: none;
+
+}
+.bookmarks .element {
+  display: inline-block;
+  margin: inherit;
+  border: 1px solid black;
+  border-bottom: none;
+  padding: 20px;
+  position: relative;
+}
+
+#star { margin-right: -1px; }
+#star, #flower { padding: 5px 20px 10px 20px; }
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+img { border: none; }
+
+#eid, #mubarak {
+  margin: 0;
+  font-size: 50px;
+  text-align: left;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  text-indent: 5px;
+}
+
+/* ul { padding: 10%; } */
+
+.views {
+  text-align: left;
+}
+
+.local {margin: 20px 0px;}
+
+footer {
+  color: rgba(0, 0, 0, 0.664);
+  margin: 0;
+  padding: 2%;
+}
+
+footer ul {
+  padding-left: 0px;
+}
+
+footer li {
+  display: inline-block;
+  padding-right: 25px;
+  font-size: 25px; 
+  position: relative;
+}
+
+
+.HomeButton {
+  background-image: url("images/home-button-background.jpg");
+}
