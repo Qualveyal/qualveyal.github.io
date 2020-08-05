@@ -1,16 +1,18 @@
 /* *{ border: 1px solid black; } */
 
 body {
-  /* padding: 0 5%; */
   text-align: center;
   letter-spacing: 0.0375em;
   margin: 0;
+  /* background-color: rgba(29,36,42,0.9); */
+  /* background-image: url("../images/background.jpg"); */
 }
 
-.file-background {
+main {padding: 2%;}
+
+.file {
   padding: 10%;
   border: 1px solid black;
-
 }
 
 .bookmarks {
@@ -36,7 +38,9 @@ table {
   padding: 10px;
 }
 
-img { border: none; }
+#image {
+  width: 25%;
+}
 
 #eid, #mubarak {
   margin: 0;
@@ -47,18 +51,15 @@ img { border: none; }
   text-indent: 5px;
 }
 
-/* ul { padding: 10%; } */
-
 .views {
   text-align: left;
 }
 
-.local {margin: 20px 0px;}
-
 footer {
-  color: rgba(0, 0, 0, 0.664);
+  /* color: rgba(0, 0, 0, 0.664); */
   margin: 0;
   padding: 2%;
+  position: relative;
 }
 
 footer ul {
@@ -70,9 +71,4 @@ footer li {
   padding-right: 25px;
   font-size: 25px; 
   position: relative;
-}
-
-
-.HomeButton {
-  background-image: url("images/home-button-background.jpg");
 }
