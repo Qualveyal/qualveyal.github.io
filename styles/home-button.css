@@ -1,3 +1,5 @@
+/*Home url button */
+
 #Home:link, #Home:visited {
   background-color: #ffd448;
   color: black;
@@ -5,7 +7,6 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  /* margin-bottom: 1%; */
   font-size: 15pt;
 }
 
@@ -13,7 +14,10 @@
   background-color: #ffcc00;
 }
 
-.HomeButton { margin: 20px 0; text-align: left; }
+.HomeButton {
+  margin: 20px 0; 
+  text-align: left; 
+}
 
 
 /* <div class="HomeButton">
