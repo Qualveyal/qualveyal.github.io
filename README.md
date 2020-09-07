@@ -1,2 +1,2 @@
 # qualve.github.io
-For learning HTML/CSS/JS and to store such projects
+This is me learning HTML/CSS/JS and a place to store my projects.
