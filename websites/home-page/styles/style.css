@@ -40,7 +40,7 @@ img {
   margin: 0 auto;
 }
 
-a:link, a:visited, a:active { color: inherit; }
+a:link, a:visited, a:active { color: #c51380; }
 
 /* @media screen and (max-width: 18cm) {
   body {
