@@ -8,14 +8,15 @@ let myLink = document.querySelectorAll("a");
 
 let Length = myLink.length;
 
+// Border for title using shadow
 let borderWhite = ", -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff";
-let borderBlack = ", -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000";
+// let borderBlack = ", -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000";
 
 /*** Display change ***/
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
   if (mySrc === "websites/home-page/images/q-icon-3-light.png") {
-    // dark mode
+    // Dark mode
     myImage.setAttribute("src", "websites/home-page/images/q-icon-3-dark.png");
     changeEverything("background-dark.jpg", "#000000b0", "#ffffff", "#e9e892af", "#b72121", borderWhite, "#08ff00");
   } else {
@@ -39,8 +40,9 @@ function changeEverything(Img, BBgC, BC, BBC, HTSC, Border, LC) {
   myBody.style.color = BC;
   myBody.style.border =  "5px solid " + BBC;
   myHeading.style.textShadow = "0px 0px 10px " + HTSC + Border;
-  
-  for(i = 0; i < Length; i++) {
+
+  // Link color
+  for(i = 0; i < Length; i++) {  
     myLink[i].style.color = LC;
   }
 }
